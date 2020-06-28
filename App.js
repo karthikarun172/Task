@@ -15,7 +15,6 @@ export default function App() {
         <Stack.Navigator>
           <Stack.Screen name="Home" component={Home} />
           <Stack.Screen name="Cart" component={Cart} />
-          <Stack.Screen name="Prac" component={Prac} />
         </Stack.Navigator>
       </NavigationContainer>
     </CartProvider>
