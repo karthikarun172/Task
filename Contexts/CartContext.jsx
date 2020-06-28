@@ -2,7 +2,7 @@ import ContextDataProvider from "./ContextDataProvider";
 import { Alert } from "react-native";
 
 const CartReducer = (state, action) => {
-  const maxValue = 10;
+  const maxValue = 20;
   switch (action.type) {
     case "ADD_TO_CART":
       let cart = [...state, action.payloads];
