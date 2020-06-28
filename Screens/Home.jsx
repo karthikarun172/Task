@@ -29,14 +29,12 @@ const Home = ({ navigation }) => {
       }}
     >
       <View style={style.HomeScreen}>
-        <TouchableOpacity onPress={() => navigation.navigate("Prac")}>
           <RestaurantDetail
             RestaurantName="Inka Restaurant"
             Rating="5"
             WorkingTime="All days: 09:00 AM - 06:00PM"
             Phone="9854562142"
           />
-        </TouchableOpacity>
         <Text style={style.StarterText}>Starter</Text>
         <FlatList
           data={DummyDatas}
