@@ -4,7 +4,7 @@ import { Provider as CartProvider } from "./Contexts/CartContext";
 import { createStackNavigator } from "@react-navigation/stack";
 import Home from "./Screens/Home";
 import Cart from "./Screens/Cart";
-import Prac from "./Screens/Prac";
+
 
 const Stack = createStackNavigator();
 
